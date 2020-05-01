@@ -1,0 +1,93 @@
+#root, html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+}  
+
+.main{
+    height: 60%;
+    display: grid;
+    grid-template-rows: 3fr 4fr;
+    text-align: center;
+    margin: 0px auto;
+    width: 80%;
+}
+
+.header{
+    padding: 20px 0px;
+    margin: auto;
+    font-size: 32px;
+    font-family: sans-serif;
+    color: blueviolet;
+}
+
+.downloader{
+    display: grid;
+    grid-template-rows: 3fr 3fr;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.youtubeVideo{
+    margin: auto 0px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+
+.youtubeVideo input{
+    width: 80%;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 5px solid blueviolet;
+}
+
+.youtubeVideo button{
+    border: none;
+    background: transparent;
+    font-size: 36px;
+    padding: 0px 20px;
+    margin: auto 0px;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.youtubeAudio{
+    grid-template-columns: 6fr 1fr;
+    margin: auto 0px;
+    justify-content: center;
+    display: grid;
+    padding: 15px 0px;
+}
+
+.youtubeAudio input{
+    width: 80%;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 5px solid blueviolet;
+}
+
+.youtubeAudio button{
+    border: none;
+    background: transparent;
+    font-size: 36px;
+    padding: 0px 20px;
+    margin: auto 0px;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+}
+
+button:focus{
+    border-radius: 10px;
+    border: 5px solid blueviolet;
+    outline: none;
+}
